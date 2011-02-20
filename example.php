@@ -10,3 +10,7 @@ dibi::connect($options);
 // set the Profiler
 $profiler = new CodeIgniterDibiProfiler;
 dibi::getConnection()->setProfiler($profiler);
+
+
+// from anywhere in some of your CI Controllers, turn on the profiler
+$this->output->enable_profiler(TRUE);
