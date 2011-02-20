@@ -10,6 +10,4 @@ It has a same code highlighting as native CI queries overview.
 2. turn on CI Profiler output in some Controller with $this->output->enable_profiler(TRUE);
 3. assign CodeIgniterDibiProfiler to Dibi as a Profiler with $profiler = new CodeIgniterDibiProfiler; dibi::getConnection()->setProfiler($profiler);
 
-Then you'll see this section in CI Profiler output:
-
-![Output screenshot](http://awesomescreenshot.com/0de7wce6d)
+Then you'll see [this section](http://awesomescreenshot.com/0de7wce6d) in CI Profiler output.
